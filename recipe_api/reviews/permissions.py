@@ -4,7 +4,7 @@ from rest_framework.permissions import BasePermission
 class IsOwner(BasePermission):
 
     #object level permission
-    def has_object_permission(selfself,request,view,obj):
+    def has_object_permission(self,request,view,obj):
         if request.method == 'GET':
             return True
 

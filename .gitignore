@@ -1,12 +1,17 @@
-.idea/
-.venv/
-**/.venv/
-__pycache__/
-**/__pycache__/
-*.pyc
-.env
-**/.env
 *.sqlite3
 **/db.sqlite3
 media/
 **/media/
+
+# Virtual environments
+.venv/
+
+# PyCharm settings
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
